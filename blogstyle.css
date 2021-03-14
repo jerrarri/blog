@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+
+html { 
+    background: url(https://wallpapercave.com/wp/wp3728851.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    margin: 30px;
+}
+
+a:link{
+    font-family: 'GongGothicMedium';
+    color: grey;
+    text-decoration-line: none;
+}
+
+a:visited{
+    font-family: 'GongGothicMedium';
+    color: grey;
+}
+
+
+.menu{
+    font-size: small;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    
+}
+h2 {
+    
+    font-weight: 700;
+    font-family: 'GongGothicMedium';
+    color: rgb(132, 137, 146) 
+}
+h4, h5, h6, label{
+    font-family: 'NanumSquare'
+}
+/* label{
+    font-family: 'NanumSquare'
+} */
+.box{
+    margin: 150px auto;
+    text-align: center;
+    
+}
+/* .box1 {
+    width: 250px;
+    height: 250px; 
+    border-radius: 30%;
+    overflow: hidden;
+    box-shadow:0px 5px 15px #a3a7ac ;
+} */
+
+.box4{
+   margin: 0 auto;
+}
+
+.box5{
+    padding-bottom: 30px;
+    
+}
+
+.profile {
+    width: 250px;
+    height: 250px; 
+    border-radius: 30%;
+    box-shadow:0px 5px 15px #a3a7ac ;
+    object-fit: cover;
+}
+
+.like-box{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+#music{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow:0px 5px 15px #a3a7ac ;
+    border-radius: 70%;
+}
+
+.project-box{
+    display: flex;
+    margin: 70px 10px;
+}
+
+.picture{
+    margin: 0 auto;
+    /* float: left; */
+}
+
+.description{
+    margin: 0px auto;
+    /* float: right; */
+}
+
+#project-img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow:0px 5px 15px #a3a7ac ;
+}
+
+
+
+.skill{
+    margin: 30px;
+}
+
+
+
+#contact-image{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.contact-box{
+    margin-top: 30px;
+    display: flex;
+    
+}
+
